@@ -1,0 +1,14 @@
+{
+    "profiles": {
+        "defaults": {
+            "colorScheme": "One Half Dark",
+            "font": {
+                "face": "JetBrainsMono Nerd Font",
+                "size": 11
+            },
+            "bellStyle": "none"
+        }
+    },
+    "copyFormatting": "none",
+    "copyOnSelect": false
+}
