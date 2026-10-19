@@ -1,0 +1,32 @@
+# Single-line prompt
+add_newline = false
+
+format = "$status$directory$git_branch$git_status$character"
+
+[directory]
+format = "[$path]($style) "
+style = "bold blue"
+truncation_length = 3
+truncate_to_repo = false
+
+[git_branch]
+symbol = " "
+format = "[$symbol$branch]($style) "
+style = "purple"
+
+[git_status]
+format = "([$all_status$ahead_behind]($style) )"
+style = "yellow"
+modified = "*"
+staged = "+"
+untracked = "?"
+deleted = "x"
+
+[status]
+disabled = false
+format = "[✘ $status]($style) "
+style = "bold red"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
